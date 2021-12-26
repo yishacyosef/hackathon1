@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,900;1,400&display=swap');
+body{
+    background-image: url("backg.png");
+    background-color: rgb(253, 249, 245);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav{
+background-color:  rgba(180, 241, 255, 0.192);
+}
+svg{
+    margin: 20px;
+}
+#slogan{
+    font-style: italic;
+    color: rgba(33, 134, 15, 0.349);
+}
+
+h1{
+    font-family: Bodoni Moda, serif;
+    font-size: 10vw;
+    font-weight: 900;
+    line-height: 1.15;
+    letter-spacing: -.50em;
+    color: rgba(33, 134, 15, 0.349);
+    margin-bottom: 40px;
+    text-align: center;
+    transition: 0.8s;
+}
+
+#contactForm{
+    margin: 20px;
+}
+
+.card {
+    margin: 20px;
+}
+
+#contactForm{
+    background-image: linear-gradient(to top, rgba(180, 241, 255, 0.192) ,rgb(253, 249, 245) );
+    padding: 10px;
+}
+

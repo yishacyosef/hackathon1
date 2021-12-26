@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Kunstyy</title>
+  </head>
+  <body >
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="kunstyylogo.png" alt="" width="124px" height="46px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Language
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">עברית</a></li>
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                  <li><a class="dropdown-item" href="#">Español</a></li>
+                  <li><a class="dropdown-item" href="#">Deutsch</a></li>
+                  <li><a class="dropdown-item" href="#">português</a></li>
+
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Artist
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">de la Guarda</a></li>
+                  <li><a class="dropdown-item" href="#">Mendes</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">anonymous artist</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" id="slogan">Making art available</a>
+              </li>
+            </ul>
+            <a href="cart.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="rgba(33, 134, 15, 0.349)" class="bi bi-cart" viewBox="0 0 16 16" id="cartSymbol">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </svg></a>
+            
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search in Kunstyy" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+        
+      </nav>
+    <h1 id= "head1">Kunstyy</h1>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="01cd.jpg" class="d-block w-100" alt="01">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Beautiful colors</h5>
+            <p>Enjoy this great work</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="02rt.jpg" class="d-block w-100" alt="02">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Old ones</h5>
+            <p>Shop the old art</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="3car.jpg" class="d-block w-100" alt="03">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Old haggadah</h5>
+            <p>Ready for you to pay your kidney for it</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            About us
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+            <strong>We are here for you.</strong> We love art, we want to have a good experience while shopping. You don't have to go to the art gallery and listen to some guy talking to be able to buy some good art pieces!
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            When should I buy?
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
+            <strong>Whenever you have money.</strong> you shouldn't pay if you have no money, even if you love art.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+          Are you trying to sell me something?
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
+            <strong>No more than you want to buy.</strong> you benefit, we benefit.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class = "container-fluid">
+      <div class="row">
+      <div class="card" style="width: 18rem;">
+        <img src="menasse.jpg" class="card-img-top" alt="menasse ben israel">
+        <div class="card-body">
+          <h5 class="card-title">Menasse ben Israel's portrait</h5>
+          <p class="card-text">You could buy this beautiful Menasse ben Israel's portrait just for <i>$5MM</i> if you <b>love it of course.</b></p>
+          <a href="#" class="btn btn-outline-success">Fill my cart and empty my pocket</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem; ">
+        <img src="isaac_dafonseca.jpg" class="card-img-top" alt="menasse ben israel">
+        <div class="card-body">
+          <h5 class="card-title">Isaac Aboab da Fonseca's portrait</h5>
+          <p class="card-text">I was the first Rabbi of the american continent, so why don't you buy my nice portrait just for <i>$3MM</i></p>
+          <a href="#" class="btn btn-outline-success cart">Fill my cart and empty my pocket</a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div id="contactForm">
+      <h4>Contact us</h4>
+      <form class="row g-3">
+        <div class="col-md-4">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="youremail@email.com">
+        </div>
+        <div class="col-md-4">
+          <label for="inputName" class="form-label">Name</label>
+          <input type="text" class="form-control" id="inputName" placeholder="Please type your full name">
+        </div>
+        <div class="col-4">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Please type your adress">
+        </div>
+        
+        <div class="col-md-3">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Please annoy me everyday with emails!
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-outline-success">Send form</button>
+        </div>
+      </form>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src= "script.js"></script>
+  </body>
+</html>
